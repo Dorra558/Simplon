@@ -1,0 +1,119 @@
+/* *****Déclaration des variables******************* */
+
+:root {
+    --principal_color: #A4082F;
+}
+
+body {
+    background-color: #F1F5F8;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/* ***************top bar */
+
+.social ul li {
+    list-style: none;
+}
+
+.social ul li i {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    border: 2px solid black;
+    color: var(--principal_color);
+}
+
+#face {
+    background-color: #fff;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 50%;
+    border: 2px solid black;
+    color: var(--principal_color);
+}
+
+#FR {
+    color: var(--principal_color);
+}
+
+.social a {
+    color: rgb(27, 27, 27);
+    text-decoration: none;
+}
+
+
+/* *********Section Qui sommes nous!************************ */
+
+.details::before {
+    content: "";
+    width: 6rem;
+    top: 130px;
+    height: 4px;
+    background-color: var(--principal_color);
+    position: absolute;
+    transition: 0.5s;
+}
+
+.apropos {
+    font-size: 50px;
+}
+
+.definition {
+    font-size: 25px;
+}
+
+.section1 {
+    background-color: #CE0033;
+}
+
+.section1 button {
+    background-color: #fff;
+    width: 20rem;
+    font-size: 25px;
+    color: var(--principal_color);
+    border: 1px solid black;
+}
+
+
+/* *************section Nos evenements************************** */
+
+#titleborder {
+    width: 6rem;
+    background-color: var(--principal_color);
+    height: 4px;
+}
+
+.description {
+    font-size: 19px;
+}
+
+.event {
+    background-color: #fff;
+    padding: 25px;
+}
+
+.card-img-overlay {
+    display: none;
+}
+
+.card:hover .card-img-overlay {
+    display: block;
+    background-color: #ce003475;
+}
+
+.card a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.moreEvent {
+    background-color: #F1F5F8;
+    color: var(--principal_color);
+}
+
+.moreEvent p {
+    font-size: 18px;
+}
