@@ -16,7 +16,7 @@
 <body>
     <!--**********Top bar********************** -->
     <div class="container-fluid">
-        <div class="social p-3">
+        <div class="social pt-3">
             <div class="row">
                 <div class="col-md-4 offset-7">
                     <ul class="d-flex">
@@ -30,11 +30,42 @@
                 <div class="col-md-1">
                     <a href="#" id="FR" class="fw-bold me-2"><u>FR</u> </a> <a class="fw-bold" href="#">EN</a>
                 </div>
-                <hr>
             </div>
         </div>
     </div>
 
+<!-- *********************Navbar****************************** -->
+<div class="backImg">
+<nav class="navbar navbar-expand-lg navbar-light sticky-top ">
+    <div class="container">
+      <a class="navbar-brand" href="#"> <img src="./imgs/Logosimplon.png" class="logoSimp" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class=" navbar-nav ms-auto mb-2 fw-bold mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">A propos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Nos Formations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      
+      </div>
+    </div>
+  </nav>
+
+  <p class="parag pt-5 px-5">Simplon, réseau <br> de Fabriques numériques et inclusives</p>
+   
+</div>
+    <!-- *********Section qui sommes nous********************* -->
     <div class="container py-5">
         <h1 class="details fw-bold text-center">Qui Sommes Nous?</h1><br>
         <div class="section1 text-white p-4">
@@ -95,7 +126,7 @@
             </div>
             <div class="col-md-3 p-0">
                 <div class="card">
-                    <img src="./imgs/kids.jpg" class=" w-100" alt="">
+                    <img src="./imgs/kidsP1.JPG" class=" w-100 kidsP1" alt="">
                     <div class="card-img-overlay text-white">
                         <h3 class="fw-bold text-center">Atelier Kids</h3>
                         <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptatem quidem labore.</p>
@@ -110,11 +141,33 @@
                 </div>
             </div>
         </div>
+    </div><br>
+
+<!-- ***********************Section simplon en chiffres***************************************** -->
+
+<div class="container py-5">
+    <div id="titleborder" class="m-auto"></div>
+    <h1 class="text-center fw-bold">Chiffres clés</h1><br>
+    <p class="chiffre text-center"> Simplon.co est un réseau de Fabriques solidaires et inclusives qui proposent des formations gratuites aux métiers techniques du numérique en France et à l’étranger</p>
+    <div class="row container text-center pt-4">
+        <div class="col-md-4">
+            <h1 class="chiffres fw-bold pb-3">2019</h1>
+            <p>Ouverture de la 1ere Fabrique</p>
+        </div>
+        <div class="col-md-4">
+            <h1 class="chiffres fw-bold pb-3">47</h1>
+            <p>apprenant.es pour le projet pilote</p>
+        </div>
+        <div class="col-md-4">
+            <h1 class="chiffres fw-bold pb-3">47%</h1>
+            <p>De femmes dans les formations</p>
+        </div>
     </div>
-
-
+</div>
 
     <!-- ***********Bootstrap JS******************* -->
+  
+    <script type="text/javascript" src="navbar.js"></script>
     <script src="bootstrap.js"></script>
 </body>
 

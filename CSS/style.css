@@ -7,6 +7,7 @@
 body {
     background-color: #F1F5F8;
     font-family: 'Nunito', sans-serif;
+    
 }
 
 
@@ -44,9 +45,52 @@ body {
 }
 
 
+/* ***********Navbar************************* */
+.logoSimp{
+    height: 5rem;
+}
+.navbar-nav .nav-item .nav-link{
+    color: rgb(202, 189, 189);
+    font-size: 23px;    
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: var(--principal_color);
+}
+
+
+.active{
+    color:var(--principal_color) !important;
+}
+/* .active:hover{
+    border-bottom: transparent;
+} */
+
+.navbar{
+    background-color: transparent;
+}
+.navbar.active{
+  background-color: rgba(0, 0, 0, 0.74) !important;
+}
+
+.backImg{
+        width: 100%;
+        height: 70vh;
+        background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../imgs/back.jpg');
+        background-position:center;
+        background-size: cover;
+    
+}
+.parag{
+    font-weight:bold;
+    font-size: 55px;
+    color: white;
+}
+
+
+
 /* *********Section Qui sommes nous!************************ */
 
-.details::before {
+/* .details::before {
     content: "";
     width: 6rem;
     top: 130px;
@@ -54,7 +98,7 @@ body {
     background-color: var(--principal_color);
     position: absolute;
     transition: 0.5s;
-}
+} */
 
 .apropos {
     font-size: 50px;
@@ -116,4 +160,17 @@ body {
 
 .moreEvent p {
     font-size: 18px;
+}
+.kidsP1{
+    height: 15rem;
+}
+
+/* *********************Chiffres Simplon******************************** */
+.chiffre{
+    font-size: 23px;
+    text-justify: auto;
+}
+.chiffres{
+    font-size: 60px;
+    color: var(--principal_color);
 }
