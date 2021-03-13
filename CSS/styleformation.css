@@ -1,0 +1,171 @@
+
+
+/*section formation--------------------------------------------------*/
+#testimonials{
+    margin-top: 5%;
+}
+.titretem h4{
+      font-size: 11px;
+      color: #ce0033;
+      text-transform: uppercase;  
+      letter-spacing: 5px;
+}
+.temoignage{
+    text-align: justify;
+    font-size: 25px;
+    
+}
+.lign{
+    margin-top: 5px;
+    background-color: #ce0033;
+    height: 5px;
+    width: 16.5%;
+}
+/*formation*/
+.intro-formation{
+    padding: 0;
+    margin:0;
+    background-image: url(../imgs/bg.jpg);
+
+}
+.marge-title{
+    padding-bottom: 20%;
+}
+.intro-formation a{
+text-decoration: none;
+    color: black;
+}
+.horizantal-lign{
+    background-color: #ce0033;
+    height: 5px;
+    width: 50px;
+    margin-left: 47%;
+    margin-top: 10%;
+}
+.titresimplon{
+    font-size: 40px;
+    margin-top: 1%;
+}
+
+.littlesimplon{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 0;
+    padding: 1% 20%;
+    margin-bottom: 5%;
+}
+
+/*button animation-----------*/ 
+.lire-button {
+    margin-left: 45%;
+    text-decoration: none;
+    position: relative;
+    background: #fbfaff;
+    color: black;
+    border: 1px dotted #ce0033;
+    padding: 0.5rem 2rem;
+    outline: none;
+    box-shadow:
+    0 1.2px 1.9px rgba(0, 0, 0, 0.053),
+    0 2.9px 4.3px rgba(0, 0, 0, 0.073),
+    0 5.1px 7.7px rgba(0, 0, 0, 0.084),
+    0 8.5px 12.8px rgba(0, 0, 0, 0.095),
+    0 14px 21.2px rgba(0, 0, 0, 0.109),
+    0 24.5px 37px rgba(0, 0, 0, 0.135),
+    0 53px 80px rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+.lire-button::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.175rem;
+    left: 0;
+    bottom: 0;
+    background: #ce0033;
+    transform: scale(0,1);
+    transition: transform 0.3s ease;
+}
+.lire-button:hover::after{
+    transform: scale(1,1);
+}
+
+/*-----section formation-----------------------------------------------------------------------------------------------*/
+.section-formation{
+    background-image: url(../imgs/background2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+}
+.macbook-simplon{
+    height: 70vh;
+    width: 110vh;
+    margin-top: 4%;
+}
+#form-text{
+    padding-left: 5%;
+    padding-right: 10%;
+    margin-top: 10%;
+}
+#form-text p{
+    line-height: 24px;
+    margin-top: 5%;
+    text-align: justify;
+}
+#form-text p span{
+    word-spacing: 10px;
+    height: 10px;
+    width: auto;
+    background-color: #ce0033;
+    color: #fff;
+}
+
+/* future metier-----------------------------------------------------------------------------------------------------------*/
+.verti{
+    height: 50px;
+    width: 3px;
+    margin-top: 5%;
+    background-color: #ce0033;
+    margin-left: 50%;
+}
+.ttt h1{
+    margin-bottom: 0;
+    padding-bottom:0;
+    font-size: 40px;
+    margin-top: 2%;
+    color: black;
+}
+.ttt p{
+
+    color: #ce0033;
+    font-weight: bold;
+}
+
+
+/*
+.background-metier{
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url('./image/bgmetier.jpg');
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    
+}*/
+
+
+@media only screen and (max-width: 341px) {
+    .littlesimplon {
+          text-align: justify;
+          padding: 0px;
+        }
+    .lire-button {
+        margin-top: 100px;
+        margin-bottom: 50px;
+        margin-left: 20%;
+    }
+    .macbook-simplon{
+        height: 40vh;
+        width: 60vh;
+        margin-top: 4%;
+    }
+      }
+
