@@ -121,6 +121,7 @@ text-decoration: none;
 }
 
 /* future metier-----------------------------------------------------------------------------------------------------------*/
+/*titre de metier*/
 .verti{
     height: 50px;
     width: 3px;
@@ -140,7 +141,44 @@ text-decoration: none;
     color: #ce0033;
     font-weight: bold;
 }
-
+/*contenue de metier*/
+.section-bg-metier{
+    color: black;
+    padding: 5% 0;
+}
+.single-job{
+    box-shadow: inset -2px -2px 8px rgb(201, 201, 201),
+                inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+                inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+                inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 50px;
+}
+.single-job .job-thumb{
+    margin-bottom: 20px;
+}
+.job-thumb img{
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    max-width: 100%;
+}
+.single-job .job-title{
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+}
+.single-job .job-title h3{
+    font-size: 17px;
+    font-weight: 300;
+}
+.single-job:hover{
+    box-shadow: -2px -2px 8px rgb(201, 201, 201),
+                -2px -2px 12px rgba(255, 255, 255, 0.1),
+           inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+                 2px 2px 8px rgba(255, 255, 255, 0.15);
+}
 
 /*
 .background-metier{
